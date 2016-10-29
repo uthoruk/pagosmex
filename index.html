@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" lang="es">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+</head>
+
+<body>
+    <img src="https://soporte.mobilmex.com:9448/support/images/MobilMex.png">
+    <div class="flexbox">
+        <form method="post" action="#" class="form-inline well">
+            <div class="form-group flexitem">
+                <label for="input-monto">Ingrese el monto:</label>
+                <input type="number" class="form-control" id="input-monto" name="input-monto">
+            </div>
+            <div class="form-group flexitem">
+                <label for="select-banco">Banco:</label>
+                <select class="form-control" id="select-banco" name="select-banco">									
+									<option>Por favor seleccione</option>
+								</select>
+            </div>
+            <div class="form-group flexitem">
+                <label for="select-tipo-deposito">De qué forma realizó su depósito:</label>
+                <select class="form-control" id="select-tipo-deposito" name="select-tipo-deposito">
+								</select>
+            </div>
+            <div class="form-group flexitem">
+                <label for="numero-documento">Ingrese los cuatro digitos del número de folio que aparece en su Voucher:</label>
+                <input type="number" class="form-control" id="numero-documento" name="numero-documento">
+            </div>
+            <div class="form-group flexitem">
+                <label for="fecha-documento">Ingrese la fecha que aparece en su Voucher:</label>
+                <input type="date" class="form-control" id="fecha-documento" name="fecha-documento">
+            </div>
+            <div class="form-group flexitem">
+                <label for="codigo-cajero">Ingrese su código de cajero:</label>
+                <input type="number" class="form-control" id="codigo-cajero" name="codigo-cajero">
+            </div>
+            <button type="submit" class="btn btn-default">Enviar</button>
+        </form>
+    </div>
+
+</body>
+
+</html>
