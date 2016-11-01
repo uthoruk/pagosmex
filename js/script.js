@@ -115,5 +115,5 @@ function selectModo(event) {
 function selectTipoDeposito(event) {
     var modoSeleccionado = event.target.value;
     var modo = PAGOS[bancoSeleccionado][modoSeleccionado];
-    alert(modo.mensaje);
+    $("#label-mode-input").html(modo.mensaje);
 }
